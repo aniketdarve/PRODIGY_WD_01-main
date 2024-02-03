@@ -1,16 +1,13 @@
-// Sample JavaScript code for interactive features on the space website
 
-// Function to handle virtual tours with VR integration
 function startVirtualTour(location) {
-    // Your virtual tour implementation goes here
+
     console.log(`Starting virtual tour at ${location}`);
 }
 
-// Function to load and display quizzes
+
 function loadQuiz(quizData) {
     const quizContainer = document.getElementById('quiz-container');
-    quizContainer.innerHTML = ''; // Clear previous content
-
+   
     quizData.forEach((question, index) => {
         const questionDiv = document.createElement('div');
         questionDiv.classList.add('question');
@@ -39,27 +36,27 @@ function loadQuiz(quizData) {
     quizContainer.appendChild(submitButton);
 }
 
-// Function to calculate and display the quiz score
+
 function calculateScore() {
-    // Your quiz scoring logic goes here
+    
     console.log('Calculating quiz score...');
 }
 
-// Function to handle user contributions (submitting content)
+
 function submitUserContent(content) {
-    // Your user content submission logic goes here
+    
     console.log('Submitting user content:', content);
 }
 
-// Function to toggle the visibility of the feedback form
+
 function toggleFeedbackForm() {
     const feedbackForm = document.getElementById('feedback-form');
     feedbackForm.style.display = feedbackForm.style.display === 'none' ? 'block' : 'none';
 }
 
-// Your additional JavaScript code for other interactive features can be added here
 
-// Example usage
+
+
 const sampleQuizData = [
     {
         question: "Which planet is known as the Red Planet?",
@@ -71,10 +68,10 @@ const sampleQuizData = [
         options: ["Titan", "Ganymede", "Io", "Europa"],
         correctAnswer: "Ganymede"
     },
-    // Add more questions as needed
+    
 ];
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Load quiz on page load
+    
     loadQuiz(sampleQuizData);
 });
