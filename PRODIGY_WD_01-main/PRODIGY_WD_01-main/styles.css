@@ -3,9 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    background-image: url('glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai.jpg'); /* Replace 'space-background.jpg' with the actual path to your image file */
-    background-size: cover;
-    background-position: center;
+    background-image: url('glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai.jpg'); 
     background-repeat: no-repeat;
 }
 
